@@ -28,6 +28,15 @@ public class Condicionales {
         }
         else//Si no se cumple se ejecuta esto
         {
+           JOptionPane.showMessageDialog(null, "Son Diferentes");
+            if (numero1 > numero2) 
+            {
+             JOptionPane.showMessageDialog(null, "Numero"+numero1+"Es mayor"); 
+         else
+         {
+          JOptionPane.showMessageDialog(null, "Numero"+numero2+"Es mayor");        
+         }
+            }
             
         }    
     }
