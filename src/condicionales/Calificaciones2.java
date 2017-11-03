@@ -19,7 +19,10 @@ public class Calificaciones2
    {
      JOptionPane.showMessageDialog(null, "Notable");  
    }
-   
+   if (nota == 6)
+   {
+     JOptionPane.showMessageDialog(null, "Bien");  
+   }
  }
          
 }
