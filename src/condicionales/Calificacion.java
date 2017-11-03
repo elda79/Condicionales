@@ -20,18 +20,19 @@ public class Calificacion
   nota1 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese primer nota"));
   nota2 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese segunda nota"));
   nota3 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese tercer nota"));
-   promedio = (nota1 + nota2 + nota3)/3;
+  promedio = (nota1 + nota2 + nota3)/3;
   
+   
     if (promedio > 4) 
      {
       JOptionPane.showMessageDialog(null, "su promedio es mayor que 4"); 
       JOptionPane.showMessageDialog(null, "Usted aprobo");
      }
-    else
-     {
-     JOptionPane.showMessageDialog(null, "su promedio es menor que 4");
-     JOptionPane.showMessageDialog(null, "Usted reprobo");
-     }
+      else
+      {
+      JOptionPane.showMessageDialog(null, "su promedio es menor que 4");
+      JOptionPane.showMessageDialog(null, "Usted reprobo");
+      }
     
  }   
 }
