@@ -30,7 +30,11 @@ public class Calificaciones2
       {
         JOptionPane.showMessageDialog(null, "Suficiente");   
       }  
-      
+      else
+          if (nota >4)
+          {
+           JOptionPane.showMessageDialog(null, "Insuficiente");   
+          }
    }
    
    }
