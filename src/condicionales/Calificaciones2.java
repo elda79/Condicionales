@@ -14,15 +14,28 @@ public class Calificaciones2
  public static void main(String[] args)
  {
   float nota;
-   nota1 =Float.parseFloat(JOptionPane.showInputDialog("Ingrese una nota"));
+   nota =Float.parseFloat(JOptionPane.showInputDialog("Ingrese una nota"));
    if (nota == 7)
    {
      JOptionPane.showMessageDialog(null, "Notable");  
+     JOptionPane.showMessageDialog(null, "Aprobado");
    }
    if (nota == 6)
    {
-     JOptionPane.showMessageDialog(null, "Bien");  
+     JOptionPane.showMessageDialog(null, "Bien");
+   }
+   else
+   {
+      if (nota >=4 && nota <= 5) 
+      {
+        JOptionPane.showMessageDialog(null, "Suficiente");   
+      }  
+      
+   }
+   
    }
  }
-         
-}
+
+
+       
+
