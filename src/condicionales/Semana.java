@@ -35,8 +35,11 @@ public class Semana
          case 2:
            JOptionPane.showMessageDialog(null, "martes");
          break;
+         case 1:
+           JOptionPane.showMessageDialog(null, "lunes");  
+         break;
           default:
-           JOptionPane.showMessageDialog(null, "lunes");
+           JOptionPane.showMessageDialog(null, "no es un dia de semana");
          break;
   }
    
